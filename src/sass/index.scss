@@ -1,2 +1,32 @@
-@import './common';
-@import './example';
+@import './utils/vars';
+@import './utils/mixin';
+
+@import './base/common';
+@import './base/body';
+@import './base/container';
+@import './base/section';
+@import './base/title-line';
+@import './base/visually-hidden';
+@import './base/reset';
+
+@import './components/header';
+@import './components/menu';
+
+@import './components/footer';
+
+@import './components/modal';
+
+@import './pages/main/hero';
+@import './pages/main/gallery';
+@import './pages/main/sale';
+
+@import './pages/accessories/accessories';
+
+@import './pages/contacts/contacts';
+
+@import './pages/take-order/take-order';
+
+@import './pages/blog/blog';
+
+@import './pages/blog-article/blog-article';
+
