@@ -1,0 +1,232 @@
+.blog {
+    margin: 0 auto;
+  }
+  .blog__container-mob {
+    @media screen and (min-width: 768px) {
+      display: none;
+    }
+  }
+  
+  .blog__container-tab {
+    @media screen and (max-width: 767px) {
+      display: none;
+    }
+  }
+  
+  .blog__container-tab {
+    @media screen and (min-width: 1280px) {
+      display: none;
+    }
+  }
+  
+  .blog__container-desc {
+    @media screen and (max-width: 1279px) {
+      display: none;
+    }
+  }
+  
+  .blog__article-mob {
+    margin-bottom: 24px;
+  }
+  
+  .blog__container-desc,
+  .blog__container-tab {
+    margin-bottom: 40px;
+  }
+  
+  .blog__img-mob-headset {
+    margin-bottom: 8px;
+    background-image:
+      url(/src/images/blog/headset-mob-1x.jpg);
+  
+    background-repeat: no-repeat;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .blog__img-mob-monitor {
+    margin-bottom: 8px;
+    background-image:
+      url(/src/images/blog/monitor-mob-1x.jpg);
+  
+    background-repeat: no-repeat;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .blog__img-mob-mouse {
+    margin-bottom: 8px;
+    background-image:
+      url(/src/images/blog/mouse-mob-1x.jpg);
+  
+    background-repeat: no-repeat;
+    height: 180px;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .blog-title {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.16;
+    color: $text-color;
+  }
+  
+  .blog-title-tab {
+      font-weight: 500;
+      font-size: 56px;
+      line-height: 1.17;
+      padding-left: 59px;
+    }
+  
+  .blog-title-desc {
+    font-size: 56px;
+    padding-left: 102px;
+  } 
+  
+  .blog__photo-title {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 1.16;
+    color: $text-color;
+    margin-bottom: 16px;
+  
+    max-width: 692px;
+  }
+  
+  .blog__photo-title-tab,
+  .blog__photo-title-desc {
+      font-size: 56px;
+      line-height: 1;
+  }
+  
+  .blog__photo-title-desc {
+    margin-bottom: 52px;
+  }
+  
+  .blog__photo-title-monitor {
+    margin-bottom: 24px;
+  }
+  
+  .blog__img-tab {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blog__text-text-tab {
+    margin-top: auto;
+  }
+  
+  .blog-photo {
+      margin-bottom: 8px;
+      border-radius: 12px;
+  }
+  
+  .blog__text-name {
+    color: $text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  
+  .blog__text-name-mob {
+    margin-bottom: 8px;
+  }
+  
+  .blog__text-name-tab {
+    font-size: 24px;
+    margin-bottom: 32px;
+    max-width: 132px;
+  }
+  
+  .blog__text-name-desc {
+    max-width: 249px;
+    font-size: 24px;
+  }
+  
+  .blog__text-date {
+    color: $secondary-text-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+  }
+  
+  .blog__text-date-mob {
+    margin-bottom: 16px;
+  }
+  
+  .blog__text-date-tab {
+    font-size: 24px;
+    margin-bottom: 16px;
+    max-width: 252px;
+  }
+  
+  .blog__text-date-desc {
+    font-size: 24px;
+  }
+  
+  .blog__text-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+  
+    color: $text-color;
+    margin-bottom: 8px;
+  }
+  
+  .blog__text-text-tab,
+  .blog__text-text-desc {
+    font-size: 24px;
+    line-height: 1.16;
+  }
+  
+  .blog__text-text-desc {
+    max-width: 693px;
+  }
+  
+  .blog__link-container {
+    text-align: end;
+  }
+  
+  
+  .blog__text-link {
+    color: $accent-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    text-decoration: none;
+  }
+  
+  .blog__text-link-tab,
+  .blog__text-link-desc {
+    font-size: 24px;
+  }
+  
+  .blog__photo-desc {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .blog__text-text-desc {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+  }
+  
+  .blog__svg-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+    margin-bottom: 40px;
+  }
+  
+  .blog__svg {
+    margin-right: 16px;
+  }
+  
+  .blog__svg-last {
+    margin-right: 0;
+  }
