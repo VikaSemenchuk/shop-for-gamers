@@ -1,0 +1,13 @@
+.line {
+  background-image: url(../images/frame-4527.svg);
+  transform: scaley(0.75);
+
+  background-repeat: no-repeat;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  margin: 0 -15px;
+  @include tablet {
+    margin: 0 -40px;
+  }
+}
